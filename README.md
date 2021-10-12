@@ -10,3 +10,5 @@ On Windows:
 3. Install Terraform for Windows from https://www.terraform.io/downloads.html
 4. Unzip terraform.exe and add its directory to the system's PATH environmental variable
 5. Copy/Clone the code and run it with terraform (terraform apply)
+6. Juiceshop should be running and accessible via port 8000 on the local host
+![image](https://user-images.githubusercontent.com/48758700/137033024-b52ef507-3814-46c3-aef9-6e550c1945be.png)
