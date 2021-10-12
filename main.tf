@@ -12,12 +12,11 @@ provider "docker" {
   host = "tcp://localhost:2375"
 }
 
-#
+# Pulling image and creating a container
 resource "docker_image" "juice-shop" {
     name = "bkimminich/juice-shop:latest"
 }
 
-# Create container
 resource "docker_container" "juice-shop" {
   image = docker_image.juice-shop.latest
   ports {
